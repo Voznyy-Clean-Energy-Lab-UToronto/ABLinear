@@ -26,6 +26,13 @@ Model types are as follows:
 
 python ABLinear_pred.py RUN_DIRECTORY [--id-prop-p PREDICTING_CSV] [--out OUTPUT_FOLDER] [-m Model_Type] [-b BATCH_SIZE] [--width MODEL_WIDTH] [--ari ATOM_FEATURES_JSON]
 
+## CSV formats
+
+Headerless CSVs are used for training/predicting. 
+Layout is label, target, atom1, atom2, additional features ... , class. 
+The class is treated as number of neighbours for model type 6.
+
 ## Navigation
 
 ABLinear/SSPP contains the sample training files for the model as governed by ABLinear/samples which contain the batch files for replication of work.
+Header names are found in the source files and python utilities.
