@@ -34,6 +34,7 @@ The class is treated as number of neighbours for model type 6.
 
 ## Navigation
 
-ABLinear/SSPP contains the sample training files for the model as governed by ABLinear/samples which contain the batch files for replication of work.
+CoGN_benchmark contains the training csvs for the reference coGN models used.
+ABLinear/SSPP contains the sample training files for the model as governed by ABLinear/samples which contain the batch files for replication of SI data.
 Header names are found in the source files and python utilities.
-CoGN_benchmark contains the training csvs for the reference coGN models used
+
